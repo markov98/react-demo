@@ -1,3 +1,1 @@
-# react-demo
-Just a demo to help me learn Ract.
-Got HTML template from https://html5up.net/
+Just a demo to help me learn React. Used HTML template from https://html5up.net/, also userd Vite.
