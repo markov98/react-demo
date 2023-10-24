@@ -1,1 +1,1 @@
-Just a demo to help me learn React. Used HTML template from https://html5up.net/, also userd Vite.
+Just a demo to help me learn React. Used HTML template from https://html5up.net/, also used Vite.
