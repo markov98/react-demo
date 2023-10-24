@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-      <Header />
+      <div className="hero_area">
+        <Header />
+      </div>
     </>
   )
 }
