@@ -1,5 +1,4 @@
-import Header from "./components/Header"
-import Slider from "./components/Slider"
+import HeroArea from "./components/HeroArea";
 import Expirience from "./components/Expirience";
 import Category from "./components/Category";
 import About from "./components/About";
@@ -9,10 +8,7 @@ export default function App() {
 
   return (
     <>
-      <div className="hero_area">
-        <Header />
-        <Slider />
-      </div>
+        <HeroArea />
         <Expirience />
         <Category />
         <About />
