@@ -2,7 +2,7 @@ import Header from "./components/Header"
 import Slider from "./components/Slider"
 import Expirience from "./components/Expirience";
 
-function App() {
+export default function App() {
 
   return (
     <>
@@ -14,5 +14,3 @@ function App() {
     </>
   )
 }
-
-export default App;

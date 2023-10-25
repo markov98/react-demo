@@ -1,4 +1,4 @@
-function Header() {
+export default function Header() {
     return (
         <>
             <header className="header_section">
@@ -12,27 +12,27 @@ function Header() {
                             <span className="navbar-toggler-icon"></span>
                         </button>
 
-                            <ul className="navbar-nav">
-                                <li className="nav-item active">
-                                    <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="about.html">About</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="work.html">Work</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="category.html">Category</a>
-                                </li>
-                            </ul>
-                            <div className="user_option">
-                                <a href="#">
-                                    <span>Login</span>
-                                </a>
-                                <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                                    <button className="btn my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                                </form>
+                        <ul className="navbar-nav">
+                            <li className="nav-item active">
+                                <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="about.html">About</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="work.html">Work</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="category.html">Category</a>
+                            </li>
+                        </ul>
+                        <div className="user_option">
+                            <a href="#">
+                                <span>Login</span>
+                            </a>
+                            <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                                <button className="btn my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                            </form>
                         </div>
                         <div className="custom_menu-btn">
                             <button>
@@ -47,5 +47,3 @@ function Header() {
         </>
     );
 }
-
-export default Header;

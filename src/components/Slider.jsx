@@ -1,5 +1,4 @@
-
-function Slider() {
+export default  function Slider() {
 
   return (
     <>
@@ -122,6 +121,4 @@ function Slider() {
       </section>
     </>
   )
-}
-
-export default Slider;
+};
