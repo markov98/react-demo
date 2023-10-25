@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Slider from "./components/Slider"
 import Expirience from "./components/Expirience";
 import Category from "./components/Category";
+import About from "./components/About";
 
 export default function App() {
 
@@ -13,6 +14,7 @@ export default function App() {
       </div>
         <Expirience />
         <Category />
+        <About />
     </>
   )
 }
