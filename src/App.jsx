@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Slider from "./components/Slider"
 import Expirience from "./components/Expirience";
+import Category from "./components/Category";
 
 export default function App() {
 
@@ -11,6 +12,7 @@ export default function App() {
         <Slider />
       </div>
         <Expirience />
+        <Category />
     </>
   )
 }
