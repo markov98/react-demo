@@ -3,6 +3,7 @@ import Slider from "./components/Slider"
 import Expirience from "./components/Expirience";
 import Category from "./components/Category";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
         <Expirience />
         <Category />
         <About />
+        <Footer />
     </>
   )
 }
